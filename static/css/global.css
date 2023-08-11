@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-53xl: 72px;
+  --font-size-xl: 20px;
+  --font-size-81xl: 100px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-794xl: 813px;
+  --gap-26xl: 45px;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-181xl: 200px;
+}

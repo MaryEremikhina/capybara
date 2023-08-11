@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/global.css')}}" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/page1.css')}}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page1">
+      <div class="frame3">
+        <div class="title-noname">TITLE NONAME</div>
+        <div class="lorem-ipsum-dolor1">
+          Lorem ipsum dolor sit amet consectetur. Id diam vitae bibendum egestas
+          nullam dignissim interdum leo amet. Cras morbi potenti non porta arcu
+          sem fames leo. Diam nibh mattis pharetra congue nam venenatis nec
+          commodo interdum. Feugiat sit donec morbi et massa. Aliquam
+          ullamcorper commodo neque porta mauris. Ultrices facilisis at nisl non
+          volutpat auctor cursus neque pellentesque. Fringilla aliquam
+          consectetur placerat aenean. Scelerisque amet pulvinar suspendisse
+          tellus habitant urna mauris quam.
+        </div>
+      </div>
+      <div class="frame4">
+        <div class="header1">
+          <button class="home1" id="hOME">HOME</button>
+          <div class="title-noname">ABOUT</div>
+          <div class="title-noname">CONTACT US</div>
+        </div>
+        <div class="frame-item"></div>
+      </div>
+    </div>
+
+    <script>
+      var hOME = document.getElementById("hOME");
+      if (hOME) {
+        hOME.addEventListener("click", function (e) {
+          window.location.href = "page2";
+        });
+      }
+      </script>
+  </body>
+</html>
